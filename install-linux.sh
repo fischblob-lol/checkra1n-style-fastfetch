@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 # Check where the repository is so we can clone the contents into the fastfetch cfg folder
 dir_of_dotfiles=$(pwd)
@@ -47,12 +47,15 @@ echo "i am running: mkdir -p /home/$USER/.config/backup/fastfetch"
 echo "to: generate the backup folder"
 mkdir -p /home/$USER/.config/backup/fastfetch
 echo "i am running: mv /home/$USER/.config/fastfetch* /home/$USER/.config/backup/fastfetch"
+mv $HOME/.config/fastfetch $HOME/.config/backup/fastfetch 
 echo "to: move your files to the backup folder"
 
 echo "--step 2: applying my shit ---"
 echo "i am running: mkdir -p /home/$USER/.config/fastfetch"
+mkdir -p /home/$USER/.config/fastfetch
 echo "to: make fastfetch config folder if it already doesent exist"
-echo "i am running: mv $dir_of_dotfiles* /home/$USER/.config/fastfetch"
+echo "i am running: mv $dir_of_dotfiles/* /home/$USER/.config/fastfetch"
+mv $dir_of_dotfiles/* /home/$USER/.config/fastfetch
 echo "to: move my config to fastfetch config folder"
 
 echo "--- finish! ---"
