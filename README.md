@@ -19,7 +19,7 @@ and then open the **config.jsonc** with any text editor. now go to logo -> sourc
 ```
 echo $USER
 ```
-## Star History ( plz star :c )
+## Star History
 
 <a href="https://www.star-history.com/?repos=fischblob-lol%2Fcheckra1n-style-fastfetch&type=date&legend=top-left">
  <picture>
