@@ -9,3 +9,13 @@ mv config.jsonc ~/.config/fastfetch
 fastfetch
 ```
 Done!
+# Notes (important!!!!!!!!!!)
+1. the fastfetch config will not work out of the box.
+-> the fix for that is this:
+```
+cd $HOME/.config/fastfetch
+```
+and then open the **config.jsonc** with any text editor. now go to logo -> source. see where it says /home/YOURUSER? Change YOURUSER to the EXACT output of
+```
+echo $USER
+```
