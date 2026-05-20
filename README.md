@@ -1,6 +1,6 @@
-# checkra1n-style-fastfetch
+# A simple, default little fastfetch theme in style of checkra1n
 just the normal fastfetch BUT with a checkra1n logo!
-# installation (make a backup first!)
+# installation (make a backup first!) ((the script will backup your stuff at ~/.config/backup/fastfetch ok))
 ```
 git clone https://github.com//fischblob-lol/checkra1n-style-fastfetch
 cd checkra1n-style-fastfetch
